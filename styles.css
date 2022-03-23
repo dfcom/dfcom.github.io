@@ -6,7 +6,8 @@ h1 {
 
 .item1 {
     grid-area: header;
-    text-align: center;
+    align-items: top;
+    justify-content: center;
     font-size: 35px;
     padding: 0px
 }
