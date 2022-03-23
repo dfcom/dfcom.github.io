@@ -26,6 +26,6 @@ Width: 100%;
   .columns {
     content:"";
     display: table;
-    clear: both;
+    clear: all;
   }
 }
