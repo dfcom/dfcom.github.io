@@ -4,13 +4,11 @@ body {
 h1 {
     color: blue;}
 
-h3 {
-    padding: 0px;}
-
 .item1 {
     grid-area: header;
     text-align: center;
     font-size: 35px;
+    padding: 0px
 }
 
 .item2 {
@@ -40,7 +38,7 @@ h3 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 200px auto 100px;
+  grid-template-columns: 220px auto 100px;
   grid-template-areas:
     'header header header'
     'menu main right'
