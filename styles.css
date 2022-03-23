@@ -14,7 +14,7 @@ h1 {
 .item2 {
     grid-area: menu;
     background-color: rgba(0, 0, 255, 0.1);
-    text-align: left;
+    text-align: left top;
     font-size: 27px;
 }
 
