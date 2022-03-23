@@ -1,29 +1,32 @@
 body {
-    font-family: "Comic Sans MS";}
+    font-family: "Comic Sans MS";
+}
 
 h1 {
-    color: blue;}
+    color: blue;
+}
 
 .item1 {
     grid-area: header;
-    align-items: top;
-    justify-content: center;
-    font-size: 35px;
-    padding: 0px
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
 }
 
 .item2 {
     grid-area: menu;
     background-color: rgba(0, 0, 255, 0.1);
-    align-items: top;
-    justify-content: left;
+    text-align: left;
+    vertical-align: top;
     font-size: 27px;
+    padding-left: 30px;
 }
 
 .item3 {
     grid-area: main;
     text-align: left;
     font-size: 27px;
+    padding-left: 10px;
 }
 
 .item4 {
@@ -40,15 +43,11 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 220px auto 100px;
+  grid-template-columns: 250px auto 100px;
   grid-template-areas:
     'header header header'
     'menu main right'
     'footer footer footer';
   gap: 10px;
-  padding: 10px;
-}
-
-.grid-container > div {
   padding: 10px;
 }
