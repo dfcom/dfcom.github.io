@@ -6,6 +6,15 @@ h1 {
     color: blue;
 }
 
+.button {
+    border: none;
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+}
+
 .item1 {
     grid-area: header;
     font-size: 30px;

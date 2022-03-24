@@ -5,9 +5,16 @@
         <link href="styles.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
+        <script>
+          function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+          }
+        </script>
         <div class="grid-container">
           <div class="item1">
-              <h1>Laboratório de Escoamentos Instáveis</h1>
+              <input class="button" type="button" value="Laboratório de Escoamentos Instáveis" onclick="play()">
+              <audio id="audio" src="lei-tem-uff.mp3"></audio>
               <h3>
                   Departamento de Engenharia Mecânica<br/>
                   Escola de Engenharia<br/>
