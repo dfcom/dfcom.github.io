@@ -10,6 +10,10 @@ td {
     padding: 10px;
 }
 
+img {
+    border: 5px solid blue;
+}
+
 .button {
     border: none;
     color: blue;
