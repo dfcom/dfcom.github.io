@@ -8,6 +8,7 @@ h1 {
 
 td {
     padding: 10px;
+    padding-left: 0px;
 }
 
 img {
@@ -55,11 +56,11 @@ img {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 250px auto auto;
+  grid-template-columns: 250px auto;
   grid-template-areas:
-    'header header header'
-    'menu main main'
-    'footer footer footer';
+    'header header'
+    'menu main'
+    'footer footer';
   gap: 10px;
   padding: 10px;
 }
