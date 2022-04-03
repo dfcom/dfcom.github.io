@@ -25,12 +25,12 @@ h1 {
   float: left;
   width: 25%;
   padding: 5px;
-  padding-bottom: 0px;
 }
 
 td {
     padding: 10px;
     padding-left: 0px;
+    padding-bottom: 0px;
 }
 
 @media screen and (max-width: 1610px) {
