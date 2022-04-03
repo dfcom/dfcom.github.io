@@ -29,10 +29,10 @@ h1 {
 
 td {
     padding: 10px;
-    padding-left: 0px;
+/*    padding-left: 0px; */
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .column {
     width: 50%;
   }
