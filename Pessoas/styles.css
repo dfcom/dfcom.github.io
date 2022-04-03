@@ -39,13 +39,13 @@ td {
   }
 }
 
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 1305px) {
   .column {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
   .column {
     width: 100%;
   }
