@@ -33,13 +33,13 @@ td {
     padding-left: 0px;
 }
 
-@media screen and (max-width: 1692px) {
+@media screen and (max-width: 1610px) {
   .column {
     width: 33.33%;
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1325px) {
   .column {
     width: 50%;
   }
