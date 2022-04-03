@@ -23,7 +23,7 @@ h1 {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -32,7 +32,13 @@ td {
 /*    padding-left: 0px; */
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1650px) {
+  .column {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
   .column {
     width: 50%;
   }
