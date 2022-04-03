@@ -45,7 +45,7 @@ td {
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 995px) {
   .column {
     width: 100%;
   }
