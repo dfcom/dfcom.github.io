@@ -33,19 +33,19 @@ td {
     padding-bottom: 0px;
 }
 
-@media screen and (max-width: 1610px) {
+@media screen and (max-width: 1700px) {
   .column {
     width: 33.33%;
   }
 }
 
-@media screen and (max-width: 1305px) {
+@media screen and (max-width: 1350px) {
   .column {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 960px) {
   .column {
     width: 100%;
   }
