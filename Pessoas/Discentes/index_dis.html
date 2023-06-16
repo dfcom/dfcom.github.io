@@ -13,7 +13,8 @@
         </script>
         <div class="grid-container">
           <div class="item1">
-              <input class="button" type="button" value="Laboratório de Escoamentos Instáveis" onclick="play()">
+              <a id="top">
+              <input class="button" type="button" value="Laboratório de Escoamentos Instáveis" onclick="play()"></a>
               <audio id="audio" src="lei-tem-uff.mp3"></audio>
               <h3>
                   Departamento de Engenharia Mecânica<br/>
@@ -28,6 +29,10 @@
                   <dt><br/>Pessoas</dt>
                     <dd><a href="../Docentes/index_doc.html" style="color:black;text-decoration:none;">Docentes</a></dd>
                     <dd><b>Discentes</b></dd>
+                    <hr style="width:85%;margin-left:0">
+                    <dd>-<a href="#section-1">Atuais</a></dd>
+                    <dd>-<a href="#section-2">Formados</a></dd>
+                    <hr style="width:85%;margin-left:0">
                   <dt><br/>Pesquisa</dt>
                     <dd><a href="../../Pesquisa/Publicacoes/index_pub.html" style="color:black;text-decoration:none;">Publicações</a></dd>
                     <dd>Projetos</dd>
@@ -39,7 +44,7 @@
               </dl>
           </div>
           <div class="item3">
-              <dt><b>Atuais:</b> Todos</dt>
+              <dt><b><a id="section-1" href="#top">Atuais:</a></b> Todos</dt>
               <dt>
                   <div class="row">
                   <div class="column">
@@ -114,7 +119,7 @@
                   </div>
                   </div>
               </dt>
-              <dt><br/><b>Formados:</b> Pós-Graduação</dt>
+              <dt><br/><b><a id="section-2" href="#top">Formados:</a></b> Pós-Graduação</dt>
               <dt>
                   <div class="row">
                   <div class="column">
