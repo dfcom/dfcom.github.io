@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using External CSS</title>
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <script>
+          function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+          }
+        </script>
+        <div class="grid-container">
+          <div class="item1">
+              <a id="top">
+              <input class="button" type="button" value="Laboratório de Escoamentos Instáveis" onclick="play()"></a>
+              <audio id="audio" src="lei-tem-uff.mp3"></audio>
+              <h3>
+                  Departamento de Engenharia Mecânica<br/>
+                  Escola de Engenharia<br/>
+                  Universidade Federal Fluminense
+              </h3>
+              <hr />
+          </div>
+          <div class="item2">
+              <dl>
+                  <dt><a href="../../index.html" style="color:black;text-decoration:none;">Início</a></dt>
+                  <dt><br/>Pessoas</dt>
+                    <dd><a href="../../Pessoas/Docentes/index_doc.html" style="color:black;text-decoration:none;">Docentes</a></dd>
+                    <dd><a href="../../Pessoas/Discentes/index_dis.html" style="color:black;text-decoration:none;">Discentes</a></dd>
+                  <dt><br/>Pesquisa</dt>
+                    <dd><b>Linhas</b></dd>
+                    <dd><a href="../Pesquisa/Publicacoes/index_pub.html" style="color:black;text-decoration:none;">Publicações</a></dd>
+                    <dd>Projetos</dd>
+                    <dd>Códigos</dd>
+                  <dt><br/>Ensino</dt>
+                    <dd>Disciplinas</dd>
+                    <dd>Mini-Cursos</dd>
+                    <dd>Palestras</dd>
+              </dl>
+          </div>
+          <div class="item3">
+          </div>
+          <div class="item4">
+              <hr />
+               <a href="mailto:    lei.tem.uff@gmail.com?&subject=Contato via Website&body=Caro Prof. Leo Alves,">Email</a>
+              <address>
+                  Rua Passo da Pátria 156, Bloco E, Sala 211, São Domingos, Niterói, RJ 24210-240, Brasil.
+              </address>
+          </div>
+        </div>
+    </body>
+</html>
