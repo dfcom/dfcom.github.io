@@ -59,6 +59,24 @@ img {
     border: 5px solid blue;
 }
 
+a:link {
+  color: rgba(0, 85, 255, 0.602);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.483);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .button {
     border: none;
     color: blue;
