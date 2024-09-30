@@ -70,15 +70,30 @@ img {
 }
 
 .item1 {
-    grid-area: headerMAIN;
-    font-size: 30px;
-    padding: 0px;
-    text-align: center;
+  grid-area: headerMAIN;
+  padding: 0px;
+  text-align: center;
+}
+
+.item2 {
+  grid-area: headerLEFT;
+  padding: 0px;
+  text-align: center;
+  line-height:40px
+}
+
+.item3 {
+  grid-area: headerRIGHT;
+  font-size: 26px;
+  padding: 0px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 31.7px
 }
 
 .item4 {
     grid-area: menu;
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: rgba(0, 85, 255, 0.602);
     text-align: left;
     vertical-align: top;
     font-size: 25px;
