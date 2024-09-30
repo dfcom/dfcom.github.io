@@ -65,22 +65,10 @@ a:hover {
   text-decoration: none;
 }
 
-a:active {
-  color: rgba(255, 0, 21, 0.801);
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:visited {
+a:visited, a:active, a:link {
   color: rgba(255, 0, 21, 0.801);
   background-color: transparent;
   text-decoration: none;
-}
-
-a:link {
-  color: rgba(255, 0, 21, 0.801);
-  background-color: transparent;
-  text-decoration: underline;
 }
 
 .button {
