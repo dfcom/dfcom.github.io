@@ -93,7 +93,7 @@ td {
 
 .item4 {
     grid-area: menu;
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: rgba(0, 85, 255, 0.602);
     text-align: left;
     vertical-align: top;
     font-size: 25px;
@@ -118,6 +118,7 @@ td {
   grid-template-columns: 250px auto;
   grid-template-areas:
     'headerMAIN headerMAIN'
+    'headerLEFT headerRIGHT'
     'menu main'
     'footer footer';
   gap: 10px;
