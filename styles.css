@@ -10,23 +10,17 @@ h1 {
     color: blue;
 }
 
+a:hover {
+  color: rgba(0, 85, 255, 0.602);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 a:link {
-    color: rgba(0, 85, 255, 0.602);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: rgba(255, 0, 0, 0.483);
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  color: rgba(255, 0, 21, 0.801);
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 .button {
     border: none;
